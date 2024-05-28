@@ -10,8 +10,8 @@ const sum = function(array) {
 	return array.reduce((total, currentItem) => total += currentItem, 0);
 };
 
-const multiply = function() {
-
+const multiply = function(array) {
+  return array.reduce((total, currentItem) => total *= currentItem, 1);
 };
 
 const power = function() {
